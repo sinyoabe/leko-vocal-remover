@@ -1,0 +1,5 @@
+downloads/
+separated/
+__pycache__/
+*.wav
+*.mp3
