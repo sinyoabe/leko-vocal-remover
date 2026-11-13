@@ -1,0 +1,27 @@
+#yt-vocal-remover-btn {
+  position: fixed;
+  bottom: 80px;
+  right: 20px;
+  z-index: 999999;
+  padding: 12px 20px;
+  background-color: #ff0000;
+  color: #ffffff;
+  border: none;
+  border-radius: 50px;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+  transition: all 0.3s ease;
+  font-family: "Roboto", sans-serif;
+}
+
+#yt-vocal-remover-btn:hover {
+  transform: scale(1.05);
+  background-color: #cc0000;
+}
+
+#yt-vocal-remover-btn.active {
+  background-color: #00l800;
+  box-shadow: 0 0 15px rgba(0, 255, 0, 0.6);
+}

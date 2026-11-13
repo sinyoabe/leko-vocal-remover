@@ -1,0 +1,5 @@
+# Folder output default Demucs biasanya: separated/htdemucs/<nama_file>/
+output_no_vocals = f"separated/htdemucs/{file_name}/no_vocals.wav"
+
+# Kirim file no_vocals.wav ini ke frontend
+return FileResponse(output_no_vocals, media_type="audio/wav")
